@@ -1,0 +1,90 @@
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius:15px;
+    text-align: center;
+	
+border:1px solid #ECECEC;
+		      height: 300px;
+}
+#customers-testimonials .shadow-effect p {
+    font-family: 'poppins';
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0 17px 0;
+    font-weight: 300;
+  	text-align: center;
+}
+	  #customers-testimonials .shadow-effect h3{
+		font-family: 'poppins';
+		font-size: 24px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #1646d7;
+	  }
+	#customers-testimonials  .item {
+    transform: rotate(0deg);
+    margin: 10px;
+	  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+}
+
+	  .owl-carousel {
+  transform: rotate(0deg)!important;
+		margin: 0 auto!important;
+	  }
+	  .img-circle {
+    border-radius: unset!important;
+}
+	  .cloned , .owl-item{
+		filter: blur(2.5px)!important;
+		transform: scale(1 , 0.92)!important;
+  		-webkit-filter: blur(2.5px)!important;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	  }
+	  .active{
+		filter: blur(0px)!important;
+  		-webkit-filter: blur(0px)!important;
+		transform: scale(1)!important;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	  }
+	  @media(max-width: 1024px){
+		.shadow-effect {
+    		height: 230px;
+}
+	  }
+	   @media(max-width: 768px){
+		.shadow-effect {
+    		height: 300px;
+		 }
+	  }
+	   @media(max-width: 430px){
+		.shadow-effect {
+    		height: 400px;
+}
+		 #customers-testimonials .shadow-effect p {
+    font-size: 14px;
+    line-height: 20px;
+	color: #1646d7;
+	  }
+		 #customers-testimonials .shadow-effect h3 {
+    font-size: 20px;
+    line-height: 20px;
+	color: #1646d7;
+	
+}
+}
